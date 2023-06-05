@@ -1,0 +1,83 @@
+header{
+    background-image: linear-gradient( rgb(240, 223, 193), rgb(0, 0, 0));
+    padding: 30px
+}
+h1{
+    color: whitesmoke;
+}
+
+#logo1{
+    border-radius: 10px;
+    width: 100px;
+    
+}
+
+#logo{
+    border-radius: 10px;
+    width: 250px;
+}
+
+@font-face {
+    font-family:'roca';
+    src: url('roca-one-regular.ttf') format('TrueType')
+       
+}
+.titulo-principal{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-30px -10px);
+    font-size: 45px;
+    font-family: 'roca';
+}
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, from p{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(51, 47, 53);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:houver{
+    background: black;
+    transform: scale(1.2);
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+footer{
+    text-align: center;
+    background-image: linear-gradient(wheat, rgb(0, 0, 0));
+}p

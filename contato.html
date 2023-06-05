@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Contato</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header>
+    <img id="logo" src="logo.png">
+    <h1 class="titulo-principal">ADVOCACIA</h1>
+    </header>
+    <br>
+    <form>
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" name="nome" id="nomesobrenome" 
+        class="input-padrao" placeholder="Seu nome e sobrenome" required>
+        <br><br>
+        <label for="Email">Email</label>
+        <input type="text" name="email" id="email"
+        class="input-padrao" placeholder="seuemail@dominio.com" required>
+        <br><br>
+        <label for="telefone">telefone</label>
+        <input type="text" name="telefone" id="telefone"
+        class="input-padrao" placeholder="(XX)XXXXX-XXXX" required>
+        <br><br>
+        <label for="mensagem">Mensagem</label>
+        <textarea cols="70" rows="10" id="mensagem" required></textarea>
+    
+           <section>
+                     <p>Como prefere nosso contato?</p>
+                     <input type="radio" name="contato" value="email" id="radio-email">
+                     <label for="radio-email">Email</label>
+                     
+                     <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                     <label for="radio-telefone">Telefone</label>
+
+                     <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                     <label for="radio-whatsapp">Whatsapp</label>
+
+                </section>
+
+                <section>
+                     <p>Qual o horário prefere ser atendido</p>
+                     <select>
+                         <option>Manhã</option><!--dropdown - seleções selecionáveis-->
+                         <option>Tarde</option>
+                         <option>Noite</option>
+                     </select>
+                </section> <br>
+
+                <label class="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades no email?</label> <br><br>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+
+
+                </form>
+ </main>
+
+<footer>
+    <img id="logo1" src="logo.png">
+    <p class="copyright">&copy; Copyright -- Juliana</p>
+</footer>
+    
+</body>
+</html>
