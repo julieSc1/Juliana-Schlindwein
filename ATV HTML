@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <html lang="pt-br">
+          <meta charset="UTF-8">
+          <title>CSS externo - formulário </title>
+          <link rel="stylesheet" href="">
+</head>
+<body>
+
+<form method="post" action="">
+    <input type="date">
+    <input type="number" size= 10 placeholder="digite sem os pontos" required name="RG">
+    <input type="email" size= 80 name="email">
+    <input type="tel" name="telefone">
+    <input type="password" name="senha">
+    <input type="checkbox" name="curso">
+    <input type="checkbox" name="curso" value="administração"> Administração 
+    <input type="checkbox" name="curso" value="desenvolvimento"> Desenvolvimento de Sistemas
+    <input type="checkbox" name="curso" value="eletrônica"> eletrônica
+    <input type="radio" name="matutino"> Matutino
+    <input type="radio" name="vespertino"> Vespertino
+    <input type="radio" name="noturno"> Noturno
+    <select nome="cidade">
+    <option>Cascavel</option>
+    <option>Corbélia</option>
+    <option>Penha</option>
+    </select>
+     <textarea reus= 30 cols= 40>
+        observação
+     </textarea>
+     <img src="nome.jpg" alt="logoceep">
+     <a href="www.ceep.com.br">site da escola</a>
+     <input type="reset" value="Apagar os dados">
+     <input type="submit" value="gravar dados"
+    
